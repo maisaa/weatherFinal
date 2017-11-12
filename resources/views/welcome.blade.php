@@ -63,7 +63,7 @@
                 margin-bottom: 30px;
             }
         </style>
-        <link rel="stylesheet" href="<?php echo asset('css/main.css');?>"  type="text/css">
+      
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -79,7 +79,7 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md myColor">
+                <div class="title m-b-md ">
                    Weather Forecast
                 </div>
 
