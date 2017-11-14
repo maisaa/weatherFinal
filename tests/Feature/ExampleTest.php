@@ -18,4 +18,11 @@ class ExampleTest extends TestCase
 
         $response->assertStatus(200);
     }
+    // some test
+    public function testBasicTest1()
+    {
+        $response = $this->get('about');
+
+        $response->assertStatus(200);
+    }
 }
